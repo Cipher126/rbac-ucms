@@ -10,12 +10,3 @@ connection_uri = psycopg2.connect(
     user=os.getenv("DB_USER"),
     password=os.getenv("DB_PASSWORD")
 )
-
-# connection = connection_uri
-#
-# with connection.cursor() as cursor:
-#     cursor.execute("""
-#         ALTER TABLE results
-#         ALTER COLUMN session TYPE VARCHAR(20);
-#     """)
-# connection.commit()
