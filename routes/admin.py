@@ -138,7 +138,7 @@ def gen_otp():
         401: {'description': 'Verification failed'}
     }
 })
-def verify(): #verify
+def verify():
     data = request.get_json()
     try:
         email = data.get("email")
