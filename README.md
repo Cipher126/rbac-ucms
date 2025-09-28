@@ -96,6 +96,7 @@ Admins oversee users, courses, and departments.
 All actions are secured with **RBAC + JWT authentication**.  
 
 ### Example Admin Dashboard Response
+```json
 {
   "admin": {
     "admin_id": "ADCI001",
@@ -122,7 +123,8 @@ All actions are secured with **RBAC + JWT authentication**.
   }
 }
 
----
+```
+
 
 ## API Documentation
 Endpoints are RESTful and can be tested using **Postman** or any API client.  
